@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "这里存放业务模块B的代码"
 
-  spec.homepage     = "http://EXAMPLE/ModuleB"
+  spec.homepage     = "https://github.com/RunningMan528/ModuleB.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/ModuleB.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/RunningMan528/ModuleB.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
