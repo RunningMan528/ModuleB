@@ -90,7 +90,13 @@ Pod::Spec.new do |spec|
   #
     
   s.subspec 'Controller' do |ss|
-    ss.source_files = ""
+    ss.source_files = "ModuleB/Controller/**/*.{h,m}"
+    end
+  
+  s.subspec 'Target' do |tt|
+    tt.source_files = "ModuleB/Target/**/*.{h,m}"
+    tt.dependency "ModuleB/Controller"
+    end
     
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
