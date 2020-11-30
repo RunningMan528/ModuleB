@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ModuleB"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "业务模块B"
 
   # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -63,10 +63,10 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+    spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+    spec.ios.deployment_target = "9.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -89,11 +89,11 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
     
-  s.subspec 'Controller' do |ss|
+  spec.subspec 'Controller' do |ss|
     ss.source_files = "ModuleB/Controller/**/*.{h,m}"
     end
   
-  s.subspec 'Target' do |tt|
+  spec.subspec 'Target' do |tt|
     tt.source_files = "ModuleB/Target/**/*.{h,m}"
     tt.dependency "ModuleB/Controller"
     end
