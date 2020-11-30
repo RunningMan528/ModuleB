@@ -18,9 +18,9 @@
 		6537F8072574E449002CD8DD /* ModuleBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537F8062574E449002CD8DD /* ModuleBTests.m */; };
 		6537F8122574E449002CD8DD /* ModuleBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537F8112574E449002CD8DD /* ModuleBUITests.m */; };
 		6537F8202574E571002CD8DD /* ModuleB.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6537F81F2574E571002CD8DD /* ModuleB.podspec */; };
-		6537F8242574E833002CD8DD /* ModuleBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537F8232574E833002CD8DD /* ModuleBController.m */; };
-		6537F8272574E849002CD8DD /* PageBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537F8262574E849002CD8DD /* PageBViewController.m */; };
-		6537F82B2574E9AA002CD8DD /* Target_ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537F82A2574E9AA002CD8DD /* Target_ModuleB.m */; };
+		6537F8342574EC12002CD8DD /* PageBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537F82E2574EC12002CD8DD /* PageBViewController.m */; };
+		6537F8352574EC12002CD8DD /* ModuleBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537F82F2574EC12002CD8DD /* ModuleBController.m */; };
+		6537F8362574EC12002CD8DD /* Target_ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537F8332574EC12002CD8DD /* Target_ModuleB.m */; };
 		6E905D833A1A6839E0F8DBDC /* Pods_ModuleB_ModuleBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E70A702FC2A574EB664764 /* Pods_ModuleB_ModuleBUITests.framework */; };
 		79243FD2CEC80DAA11FF53C6 /* Pods_ModuleBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61953236B912ED77AA050DA7 /* Pods_ModuleBTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,12 +66,12 @@
 		6537F8112574E449002CD8DD /* ModuleBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBUITests.m; sourceTree = "<group>"; };
 		6537F8132574E449002CD8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6537F81F2574E571002CD8DD /* ModuleB.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModuleB.podspec; sourceTree = "<group>"; };
-		6537F8222574E833002CD8DD /* ModuleBController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBController.h; sourceTree = "<group>"; };
-		6537F8232574E833002CD8DD /* ModuleBController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBController.m; sourceTree = "<group>"; };
-		6537F8252574E849002CD8DD /* PageBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageBViewController.h; sourceTree = "<group>"; };
-		6537F8262574E849002CD8DD /* PageBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageBViewController.m; sourceTree = "<group>"; };
-		6537F8292574E9AA002CD8DD /* Target_ModuleB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ModuleB.h; sourceTree = "<group>"; };
-		6537F82A2574E9AA002CD8DD /* Target_ModuleB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleB.m; sourceTree = "<group>"; };
+		6537F82D2574EC12002CD8DD /* ModuleBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBController.h; sourceTree = "<group>"; };
+		6537F82E2574EC12002CD8DD /* PageBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageBViewController.m; sourceTree = "<group>"; };
+		6537F82F2574EC12002CD8DD /* ModuleBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBController.m; sourceTree = "<group>"; };
+		6537F8302574EC12002CD8DD /* PageBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageBViewController.h; sourceTree = "<group>"; };
+		6537F8322574EC12002CD8DD /* Target_ModuleB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ModuleB.h; sourceTree = "<group>"; };
+		6537F8332574EC12002CD8DD /* Target_ModuleB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleB.m; sourceTree = "<group>"; };
 		8FE74D40D4D2C650DD10CA86 /* Pods-ModuleB-ModuleBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleB-ModuleBUITests.debug.xcconfig"; path = "Target Support Files/Pods-ModuleB-ModuleBUITests/Pods-ModuleB-ModuleBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		94DC872DF9FDDC9E3DE2CAB8 /* Pods-ModuleB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleB.debug.xcconfig"; path = "Target Support Files/Pods-ModuleB/Pods-ModuleB.debug.xcconfig"; sourceTree = "<group>"; };
 		BDF6870BEDBC5998F1ACB443 /* Pods-ModuleBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBTests.debug.xcconfig"; path = "Target Support Files/Pods-ModuleBTests/Pods-ModuleBTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,8 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				6537F81F2574E571002CD8DD /* ModuleB.podspec */,
-				6537F8282574E98F002CD8DD /* Target */,
-				6537F8212574E81B002CD8DD /* Controller */,
 				6537F7E92574E448002CD8DD /* ModuleB */,
 				6537F8052574E449002CD8DD /* ModuleBTests */,
 				6537F8102574E449002CD8DD /* ModuleBUITests */,
@@ -135,6 +133,8 @@
 		6537F7E92574E448002CD8DD /* ModuleB */ = {
 			isa = PBXGroup;
 			children = (
+				6537F82C2574EC12002CD8DD /* Controller */,
+				6537F8312574EC12002CD8DD /* Target */,
 				6537F7EA2574E448002CD8DD /* AppDelegate.h */,
 				6537F7EB2574E448002CD8DD /* AppDelegate.m */,
 				6537F7ED2574E448002CD8DD /* SceneDelegate.h */,
@@ -168,22 +168,22 @@
 			path = ModuleBUITests;
 			sourceTree = "<group>";
 		};
-		6537F8212574E81B002CD8DD /* Controller */ = {
+		6537F82C2574EC12002CD8DD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6537F8222574E833002CD8DD /* ModuleBController.h */,
-				6537F8232574E833002CD8DD /* ModuleBController.m */,
-				6537F8252574E849002CD8DD /* PageBViewController.h */,
-				6537F8262574E849002CD8DD /* PageBViewController.m */,
+				6537F82D2574EC12002CD8DD /* ModuleBController.h */,
+				6537F82E2574EC12002CD8DD /* PageBViewController.m */,
+				6537F82F2574EC12002CD8DD /* ModuleBController.m */,
+				6537F8302574EC12002CD8DD /* PageBViewController.h */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		6537F8282574E98F002CD8DD /* Target */ = {
+		6537F8312574EC12002CD8DD /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				6537F8292574E9AA002CD8DD /* Target_ModuleB.h */,
-				6537F82A2574E9AA002CD8DD /* Target_ModuleB.m */,
+				6537F8322574EC12002CD8DD /* Target_ModuleB.h */,
+				6537F8332574EC12002CD8DD /* Target_ModuleB.m */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -414,13 +414,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6537F8272574E849002CD8DD /* PageBViewController.m in Sources */,
 				6537F7F22574E448002CD8DD /* ViewController.m in Sources */,
 				6537F7EC2574E448002CD8DD /* AppDelegate.m in Sources */,
+				6537F8352574EC12002CD8DD /* ModuleBController.m in Sources */,
 				6537F7FD2574E449002CD8DD /* main.m in Sources */,
+				6537F8342574EC12002CD8DD /* PageBViewController.m in Sources */,
+				6537F8362574EC12002CD8DD /* Target_ModuleB.m in Sources */,
 				6537F7EF2574E448002CD8DD /* SceneDelegate.m in Sources */,
-				6537F82B2574E9AA002CD8DD /* Target_ModuleB.m in Sources */,
-				6537F8242574E833002CD8DD /* ModuleBController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
