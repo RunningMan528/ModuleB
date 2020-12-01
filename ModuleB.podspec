@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ModuleB"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "业务模块B"
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = "这里存放业务模块B的代码"
 
   spec.homepage     = "https://github.com/RunningMan528/ModuleB/tree/master"
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  # spec.screenshots  = "www.examplgit e.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
