@@ -7,7 +7,13 @@
 //
 
 #import "Target_ModuleB.h"
+#import "ModuleBController.h"
 
 @implementation Target_ModuleB
+
+- (UIViewController *)Action_ViewController:(NSDictionary *)params{
+    ModuleBController *moduleBVC = [[ModuleBController alloc]init];
+    return  moduleBVC;
+}
 
 @end

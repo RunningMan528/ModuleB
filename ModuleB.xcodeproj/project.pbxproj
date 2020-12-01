@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5825AC93D67E85E3AB41F693 /* Pods_ModuleB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08201AE38A8212A75EC2F843 /* Pods_ModuleB.framework */; };
 		6537F7EC2574E448002CD8DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537F7EB2574E448002CD8DD /* AppDelegate.m */; };
-		6537F7EF2574E448002CD8DD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537F7EE2574E448002CD8DD /* SceneDelegate.m */; };
 		6537F7F22574E448002CD8DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6537F7F12574E448002CD8DD /* ViewController.m */; };
 		6537F7F52574E448002CD8DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6537F7F32574E448002CD8DD /* Main.storyboard */; };
 		6537F7F72574E449002CD8DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6537F7F62574E449002CD8DD /* Assets.xcassets */; };
@@ -50,8 +49,6 @@
 		6537F7E72574E448002CD8DD /* ModuleB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6537F7EA2574E448002CD8DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6537F7EB2574E448002CD8DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6537F7ED2574E448002CD8DD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		6537F7EE2574E448002CD8DD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		6537F7F02574E448002CD8DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6537F7F12574E448002CD8DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6537F7F42574E448002CD8DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -137,8 +134,6 @@
 				6537F8312574EC12002CD8DD /* Target */,
 				6537F7EA2574E448002CD8DD /* AppDelegate.h */,
 				6537F7EB2574E448002CD8DD /* AppDelegate.m */,
-				6537F7ED2574E448002CD8DD /* SceneDelegate.h */,
-				6537F7EE2574E448002CD8DD /* SceneDelegate.m */,
 				6537F7F02574E448002CD8DD /* ViewController.h */,
 				6537F7F12574E448002CD8DD /* ViewController.m */,
 				6537F7F32574E448002CD8DD /* Main.storyboard */,
@@ -172,8 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				6537F82D2574EC12002CD8DD /* ModuleBController.h */,
-				6537F82E2574EC12002CD8DD /* PageBViewController.m */,
 				6537F82F2574EC12002CD8DD /* ModuleBController.m */,
+				6537F82E2574EC12002CD8DD /* PageBViewController.m */,
 				6537F8302574EC12002CD8DD /* PageBViewController.h */,
 			);
 			path = Controller;
@@ -420,7 +415,6 @@
 				6537F7FD2574E449002CD8DD /* main.m in Sources */,
 				6537F8342574EC12002CD8DD /* PageBViewController.m in Sources */,
 				6537F8362574EC12002CD8DD /* Target_ModuleB.m in Sources */,
-				6537F7EF2574E448002CD8DD /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ModuleBController.h"
+#import "PageBViewController.h"
 
 @interface ModuleBController ()
 
@@ -17,7 +18,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
+    CGFloat screenWidth = UIScreen.mainScreen.bounds.size.width;
+    UIButton *jumpBtn = [[UIButton alloc]init];
+    jumpBtn.frame = CGRectMake((screenWidth - 150) / 2,300 , 150, 50);
+    [jumpBtn addTarget:self action:@selector(jumpBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    jumpBtn.backgroundColor = [UIColor orangeColor];
+    [jumpBtn setTitle:@"跳转到详情页面" forState:UIControlStateNormal];
+    [self.view addSubview:jumpBtn];
+    
 }
+
+- (void)jumpBtnClick{
+    PageBViewController *pageBvc = [[PageBViewController alloc]init];
+    [self.navigationController pushViewController:pageBvc animated:YES];
+}
+
 
 /*
 #pragma mark - Navigation
