@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ModuleBController : UIViewController
 
+@property (nonatomic,copy) NSString *contentText;
+
 @end
 
 NS_ASSUME_NONNULL_END
