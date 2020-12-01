@@ -19,6 +19,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
     
+    self.title = @"模块B";
+    
     CGFloat screenWidth = UIScreen.mainScreen.bounds.size.width;
     
     UILabel *rotuerLabel = [[UILabel alloc]init];
@@ -26,7 +28,7 @@
     rotuerLabel.textAlignment = NSTextAlignmentCenter;
     rotuerLabel.font = [UIFont systemFontOfSize:15];
     rotuerLabel.backgroundColor = [UIColor greenColor];
-    rotuerLabel.frame = CGRectMake((screenWidth - 200) / 2, 150, 200, 50);
+    rotuerLabel.frame = CGRectMake((screenWidth - 200) / 2, 200, 200, 50);
     [self.view addSubview:rotuerLabel];
     
     UIButton *jumpBtn = [[UIButton alloc]init];

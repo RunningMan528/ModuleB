@@ -168,8 +168,8 @@
 			children = (
 				6537F82D2574EC12002CD8DD /* ModuleBController.h */,
 				6537F82F2574EC12002CD8DD /* ModuleBController.m */,
-				6537F82E2574EC12002CD8DD /* PageBViewController.m */,
 				6537F8302574EC12002CD8DD /* PageBViewController.h */,
+				6537F82E2574EC12002CD8DD /* PageBViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
