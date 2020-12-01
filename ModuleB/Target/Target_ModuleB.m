@@ -11,7 +11,7 @@
 
 @implementation Target_ModuleB
 
-- (UIViewController *)Action_ViewController:(NSDictionary *)params{
+- (UIViewController *)Action_viewController:(NSDictionary *)params{
     ModuleBController *moduleBVC = [[ModuleBController alloc]init];
     return  moduleBVC;
 }
